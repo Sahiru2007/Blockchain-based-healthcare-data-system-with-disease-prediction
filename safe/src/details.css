@@ -1,0 +1,128 @@
+.ReactModal__Overlay {
+    opacity: 0;
+    transition: opacity 200ms ease-in-out;
+  }
+  
+  .ReactModal__Overlay--after-open {
+    opacity: 1;
+  }
+  
+  .ReactModal__Overlay--before-close {
+    opacity: 0;
+  }
+  .modernTable {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #2C2F36; /* Slightly lighter than the main bg for subtle contrast */
+    color: #E0E0E0; /* Light gray text for readability */
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .table-container {
+    overflow-x: auto; /* Enables horizontal scrolling */
+    margin: 0 auto; /* Centers the table container */
+  }
+  
+  .appointment-table {
+    width: 100%; /* Makes the table width responsive within its container */
+    table-layout: fixed; /* Fixes column widths */
+  }
+  
+  .appointment-table th, .appointment-table td {
+    width: 200px; /* Example fixed width, adjust as necessary */
+    text-align: left; /* Adjust text alignment as needed */
+  }
+  
+  .modernTable th {
+    background-color: #3B3F46; /* Header bg */
+    padding: 12px;
+    border-bottom: 1px solid #24272E; /* Subtle border for separation */
+  }
+  
+  .modernTable td {
+    padding: 12px;
+    border-bottom: 1px solid #3B3F46; /* Borders for cells */
+  }
+  
+  .modernTable tr:nth-child(even) {
+    background-color: #24272E; /* Alternating row highlight */
+  }
+  
+  .profilePic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .statusIndicator {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  
+  .statusIndicator.RequestPending {
+    background-color: #FBC02D; /* Amber */
+  }
+  
+  .statusIndicator.RequestDenied {
+    background-color: #E57373; /* Soft red */
+  }
+  
+  .statusIndicator.RequestAccepted {
+    background-color: #81C784; /* Muted green */
+  }
+  /* Existing styles for .modernTable, .table-container, etc. */
+
+/* Assuming previous CSS, add or adjust for modal: */
+.modalStyle {
+    background: #333; /* Dark background for modal */
+    color: #fff; /* Light text for readability */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .modalStyle h2 {
+    margin-top: 0;
+  }
+  
+  .modalStyle p {
+    white-space: pre-wrap; /* Ensures formatting for copied text is retained */
+  }
+  
+  button {
+    background-color: #4A5568;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-right: 8px;
+  }
+  
+  button:hover {
+    background-color: #2D3748;
+  }
+  
+  /* Profile Picture Styling */
+  .profilePic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  /* Ensure dark mode background for the appointments container */
+  .appointments-container {
+    background-color: #2C2F36; /* Dark mode background */
+    color: #E0E0E0; /* Light text color for readability */
+    border-radius: 20px; /* Rounded corners for the container */
+    padding: 20px;
+    margin: auto;
+    width: 90%;
+    max-width: 1200px;
+  }
+  

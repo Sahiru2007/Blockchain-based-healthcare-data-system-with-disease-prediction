@@ -1,0 +1,65 @@
+.modernTable {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #2C2F36; /* Slightly lighter than the main bg for subtle contrast */
+    color: #E0E0E0; /* Light gray text for readability */
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .table-container {
+    overflow-x: auto; /* Enables horizontal scrolling */
+    margin: 0 auto; /* Centers the table container */
+  }
+  
+  .appointment-table {
+    width: 100%; /* Makes the table width responsive within its container */
+    table-layout: fixed; /* Fixes column widths */
+  }
+  
+  .appointment-table th, .appointment-table td {
+    width: 200px; /* Example fixed width, adjust as necessary */
+    text-align: left; /* Adjust text alignment as needed */
+  }
+  
+  .modernTable th {
+    background-color: #3B3F46; /* Header bg */
+    padding: 12px;
+    border-bottom: 1px solid #24272E; /* Subtle border for separation */
+  }
+  
+  .modernTable td {
+    padding: 12px;
+    border-bottom: 1px solid #3B3F46; /* Borders for cells */
+  }
+  
+  .modernTable tr:nth-child(even) {
+    background-color: #24272E; /* Alternating row highlight */
+  }
+  
+  .profilePic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .statusIndicator {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  
+  .statusIndicator.RequestPending {
+    background-color: #FBC02D; /* Amber */
+  }
+  
+  .statusIndicator.RequestDenied {
+    background-color: #E57373; /* Soft red */
+  }
+  
+  .statusIndicator.RequestAccepted {
+    background-color: #81C784; /* Muted green */
+  }
+  

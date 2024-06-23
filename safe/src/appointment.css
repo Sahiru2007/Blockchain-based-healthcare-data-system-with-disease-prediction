@@ -1,0 +1,81 @@
+/* Appointments.css - A unique dark theme style */
+.appointments-container {
+    padding: 20px;
+    margin: auto;
+    background-color: #121212; /* Dark background for the whole container */
+    color: #E0E0E0; /* Light grey text for contrast */
+    width: 90%;
+    max-width: 1000px; /* Adjust based on your preference */
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); /* Subtle shadow for depth */
+  }
+  
+  .session-title {
+    color: #76ff03; /* A vibrant green for the title to stand out */
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px; /* Slightly larger font for the title */
+  }
+  
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive cards */
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .card {
+    background: #1E1E1E; /* Slightly lighter than the container for contrast */
+    border: 1px solid #333; /* Subtle border */
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.2s; /* Smooth transition for hover effect */
+  }
+  
+  .card:hover {
+    transform: scale(1.03); /* Slight scale to give interactive feedback */
+  }
+  
+  .card-header {
+    background-color: #6200ea; /* Deep purple for headers */
+    color: #FFF;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .card-header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #FFF; /* White border around the image */
+  }
+  
+  .card-content {
+    padding: 20px;
+    color: #BDBDBD; /* Lighter grey for content to improve readability */
+  }
+  
+  .toggle-summary-btn {
+    background-color: #2962ff; /* Bright blue for the button */
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .toggle-summary-btn:hover {
+    background-color: #448aff; /* Lighter blue on hover */
+  }
+  
+  .summary-content {
+    margin-top: 10px;
+    color: #E0E0E0; /* Maintaining contrast for readability */
+    font-size: 14px; /* Slightly smaller font for the summary */
+  }
+  
+  /* Optional: Add animations or transitions for the modal if you're customizing it further */
+  

@@ -1,0 +1,165 @@
+/* Base styles */
+.react-datepicker-custom {
+    /* This class is added to your DatePicker component */
+    width: 100%; /* Use full width of its container to maximize space */
+}
+
+/* Increase overall DatePicker size */
+.react-datepicker {
+    font-size: 1.5rem; /* Larger text inside the calendar */
+    max-width: 900px; /* Increase max width for larger calendar */
+    background-color: #222; /* Dark background for the calendar */
+    border: 1px solid #333; /* Border color for calendar */
+    color: #fff; /* Text color for calendar */
+}
+
+/* Header styles with darker theme */
+.react-datepicker__header {
+    background-color: #333; /* Darker background for the header */
+    border-bottom: 1px solid #444; /* Slight contrast for the bottom border */
+}
+
+/* Current month and weekday names with lighter text for contrast */
+.react-datepicker__current-month,
+.react-datepicker__day-name {
+    color: #ddd; /* Light grey color for better readability */
+}
+
+/* Increase the size of the date numbers */
+.react-datepicker__day,
+.react-datepicker__day-name {
+    width: 4rem; /* Increased width for larger date cells */
+    height: 4rem; /* Increased height for larger date cells */
+    line-height: 4rem; /* Center text line height to match height */
+}
+
+/* Hover and focus styles for days */
+.react-datepicker__day:hover,
+.react-datepicker__day--keyboard-selected {
+    background-color: #555; /* Darker background on hover */
+    color: #fff; /* White text color on hover */
+    border-radius: 50%; /* Circular effect on hover */
+}
+
+/* Styles for the selected day */
+.react-datepicker__day--selected {
+    background-color: #0d6efd; /* Highlight color for the selected day */
+    color: #fff; /* White text color for the selected day */
+    border-radius: 50%; /* Circular background for the selected day */
+}
+
+/* Styles for today */
+.react-datepicker__day--today {
+    background-color: #565656; /* Different color for today */
+    color: #fff; /* White text color for today */
+}
+
+/* Modify navigation arrows as needed */
+.react-datepicker__navigation-icon::before {
+    /* Adjust your custom icons here, ensuring they are visible on the dark background */
+}
+
+/* Responsive adjustments for mobile devices */
+@media (max-width: 600px) {
+    .react-datepicker {
+        font-size: 1rem; /* Smaller text for better fit on mobile */
+        max-width: 100%; /* Take up full container width */
+    }
+
+    .react-datepicker__day,
+    .react-datepicker__day-name {
+        width: 2.5rem; /* Smaller day cells for compact layout */
+        height: 2.5rem;
+        line-height: 2.5rem;
+    }
+
+    .react-datepicker__header {
+        padding: 0.5rem; /* Adjust header padding for mobile */
+    }
+
+    .react-datepicker__navigation-icon::before {
+        /* Adjust icon sizes if necessary */
+    }
+
+    /* Optionally, reduce padding/margin around the calendar for a more compact layout */
+    .react-datepicker-popper {
+        padding: 0; /* Reduce popper padding on mobile */
+    }
+}
+
+/* custom_calender.css */
+
+/* Ensures all text is light and visible against a dark background */
+.text-white {
+    color: #FFFFFF;
+  }
+  
+  /* Adjust hover effect for better contrast */
+  .hover\:bg-gray-500:hover {
+    background-color: #424242; /* A lighter shade for hover state */
+  }
+  
+  /* Ensure borders and shadows are visible yet subtle */
+  .border-gray-600 {
+    border-color: #525252; /* Adjusted for visibility */
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 10px 15px -3px rgba(255, 255, 255, 0.1), 0 4px 6px -2px rgba(255, 255, 255, 0.05);
+  }
+  
+  .doctor-card {
+    perspective: 1000px;
+  }
+  .doctor-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  .doctor-card:hover .doctor-card-inner {
+    transform: rotateY(180deg);
+  }
+  .doctor-card-front, .doctor-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  .doctor-card-back {
+    transform: rotateY(180deg);
+  }
+
+  .doctor-card-container {
+    perspective: 1000px;
+  }
+  
+  .doctor-card {
+    width: 300px;
+    height: 400px;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+  }
+  
+  .doctor-card.flipped .front {
+    transform: rotateY(180deg);
+  }
+  
+  .doctor-card.flipped .back {
+    transform: rotateY(0deg);
+  }
+  
+  .front, .back {
+    position: absolute;
+    backface-visibility: hidden;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+  }
+  
+  .back {
+    transform: rotateY(-180deg);
+  }
+  

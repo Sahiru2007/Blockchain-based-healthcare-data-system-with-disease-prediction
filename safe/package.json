@@ -1,0 +1,87 @@
+{
+  "name": "vitalguard",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.4.4",
+    "@mui/lab": "^5.0.0-alpha.159",
+    "@mui/material": "^5.15.3",
+    "@mui/x-data-grid": "^5.5.1",
+    "@stripe/react-stripe-js": "^2.6.2",
+    "@stripe/stripe-js": "^3.2.0",
+    "@syncfusion/ej2": "^19.4.48",
+    "@syncfusion/ej2-react-calendars": "^19.4.48",
+    "@syncfusion/ej2-react-charts": "^19.4.50",
+    "@syncfusion/ej2-react-dropdowns": "^19.4.52",
+    "@syncfusion/ej2-react-grids": "^19.4.50",
+    "@syncfusion/ej2-react-inputs": "^19.4.52",
+    "@syncfusion/ej2-react-kanban": "^19.4.48",
+    "@syncfusion/ej2-react-popups": "^19.4.52",
+    "@syncfusion/ej2-react-richtexteditor": "^19.4.50",
+    "@syncfusion/ej2-react-schedule": "^19.4.50",
+    "@zegocloud/zego-uikit-prebuilt": "^2.0.1",
+    "docxtemplater": "^3.47.4",
+    "file-saver": "^2.0.5",
+    "html2canvas": "^1.4.1",
+    "ipfs-http-client": "^52.0.4-rc.4",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.8.2",
+    "nth-check": "^2.1.1",
+    "pdf-lib": "^1.17.1",
+    "pdfmake": "^0.2.10",
+    "pizzip": "^3.1.7",
+    "react": "^18.2.0",
+    "react-calendar": "^4.8.0",
+    "react-cookie": "^4.1.1",
+    "react-csv": "^2.2.2",
+    "react-datepicker": "^6.6.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "react-modal": "^3.16.1",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "^5.0.1",
+    "react-transition-group": "^4.4.5",
+    "stripe": "^14.23.0",
+    "web3": "^4.3.0",
+    "xlsx": "^0.18.5",
+    "zego-express-engine-webrtc": "^2.17.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "eslint": "^8.9.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.0.19"
+  }
+}
